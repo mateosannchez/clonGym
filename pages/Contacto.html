@@ -8,7 +8,8 @@
     <title>Contacto-gym</title>
     <link rel="stylesheet" href="../css/estilos.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    
+    <link rel="stylesheet" href="../css/boos/bootstrap.min.css">
+    <script src="../js1/bootstrap.bundle.min.js"></script>
 
 
 </head>
@@ -48,13 +49,58 @@
     <section>
 
         <h2 class="section__etiq">Nuestras redes sociales y medios de comunicación.</h2>
-        <div class="section__grid--cont">
-
-
-            <a class="nav__enlace--cont section__etiq" target="_blank" href="https://www.instagram.com"><i class="ri-instagram-fill"></i></a>
-            <a class="nav__enlace--cont section__etiq" target="_blank" href="https://www.facebook.com"><i class="ri-facebook-circle-fill"></i></a>
+        <!-- <div class="section__grid--cont">
             <a class="nav__enlace--cont section__etiq" target="_blank" href="https://mail.google.com"> <i class="ri-mail-line"></i></a>
             <a class="nav__enlace--cont section__etiq" target="_blank" href="https://web.whatsapp.com/"><i class="ri-whatsapp-line"></i></a>
+        </div> -->
+
+        <div class="accordion accordion-flush" id="accordionFlushExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                    <i class="ri-instagram-fill"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><a class="nav__enlace--cont section__etiq" target=" target="_blank" href="https://www.instagram.com">Instagram</a></div>
+              </div>
+            </div>
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                    <i class="ri-facebook-circle-fill"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><a class="nav__enlace--cont section__etiq" target="_blank" href="https://www.facebook.com">Facebook</a></div>
+              </div>
+            </div>
+
+
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                    <i class="ri-mail-line"></i>
+                </button>
+              </h2>
+              <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body"><a class="nav__enlace--cont section__etiq" target="_blank" href="https://mail.google.com"> Mail</a></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingFour">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                <i class="ri-whatsapp-line"></i>
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body"><a class="nav__enlace--cont section__etiq" target="_blank" href="https://web.whatsapp.com/">Whatsapp</a></div>
+            </div>
+          </div>
         </div>
 
 
