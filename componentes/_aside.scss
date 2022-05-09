@@ -1,0 +1,45 @@
+.aside {
+
+    padding: 1rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    .&__inscrip {
+    
+        font-family: 'Arimo', sans-serif;
+        background-color: $fluor;
+        width: 100%;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    
+    
+    }
+    
+    .&__inscrip--div {
+    
+        width: 100%;
+    }
+    
+    .&__inscrip--ol {
+        font-weight: bold;
+        margin-top: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 100%;
+    
+    }
+    
+    .&__inscrip--pasos:hover {
+        animation-name: initial;
+        animation-duration: 9s;
+        font-weight: bold;
+        font-family: 'Arimo', sans-serif;
+        list-style: none;
+        background-color: $fluor;
+        border: $bl 2px solid;
+    
+    }
+}

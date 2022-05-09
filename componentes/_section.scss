@@ -1,0 +1,65 @@
+.section {
+
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    padding: 1rem;
+
+    .&__p {
+    
+        font-family: 'Arimo', sans-serif;
+        background-color: $fluor;
+        text-align: justify;
+        height: 30%;
+        width: 80%;
+        margin-left: 50px;
+        margin-top: 90px;
+        display: grid;
+        justify-items: start;
+    
+    }
+    
+    .&__img {
+    
+        margin-left: 80px;
+        margin-top: 40px;
+    
+    
+    
+    }
+    
+    .&__ins {
+       
+        font-family: 'Arimo', sans-serif;
+        background-color: $fluor;
+        border-radius: 20px;
+        width: 100%;
+        height: 90%;
+        padding: 1rem;
+        margin: 50px 0px;
+    
+    
+    
+    
+    }
+    
+    .&__ins--form {
+        font-family: 'Arimo', sans-serif;
+    
+        font-weight: bold;
+        margin-right: 10px;
+        margin-bottom: 20px;
+        padding: 1rem;
+    }
+    
+    .&__table {
+    
+        font-family: 'Arimo', sans-serif;
+        background-color: $fluor;
+        width: 90%;
+        border-radius: 20px;
+        margin-left: 40px;
+        margin-top: 10px;
+    
+    }
+
+}

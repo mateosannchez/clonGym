@@ -1,0 +1,21 @@
+{
+  "name": "clon-gym",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+    "start": "sass estilos.scss ./css/estilos.css -w --no-source-map -s compressed"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateosannchez/clonGym.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateosannchez/clonGym/issues"
+  },
+  "homepage": "https://github.com/mateosannchez/clonGym#readme"
+}
