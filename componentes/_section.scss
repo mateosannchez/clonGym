@@ -4,36 +4,30 @@
     grid-template-columns: 2fr 2fr;
     padding: 1rem;
 
-    .&__p {
+    .section__p {
     
         font-family: 'Arimo', sans-serif;
         background-color: $fluor;
         text-align: justify;
         height: 30%;
         width: 80%;
-        margin-left: 50px;
-        margin-top: 90px;
+        @include margin;
         display: grid;
         justify-items: start;
     
     }
     
-    .&__img {
-    
-        margin-left: 80px;
-        margin-top: 40px;
-    
-    
-    
+    .section__img {
+        @include margin;
     }
     
-    .&__ins {
+    .section__ins {
        
         font-family: 'Arimo', sans-serif;
         background-color: $fluor;
         border-radius: 20px;
-        width: 100%;
-        height: 90%;
+        $width:map-get($map:tamaño , $key:ancho);
+        $height:map-get($map: tamaño, $key:largo );
         padding: 1rem;
         margin: 50px 0px;
     
@@ -42,23 +36,20 @@
     
     }
     
-    .&__ins--form {
-        font-family: 'Arimo', sans-serif;
-    
+    .section__ins--form {
+        font-family: 'Arimo', sans-serif;   
         font-weight: bold;
-        margin-right: 10px;
-        margin-bottom: 20px;
+        @include margin;
         padding: 1rem;
     }
     
-    .&__table {
+    .section__table {
     
         font-family: 'Arimo', sans-serif;
         background-color: $fluor;
         width: 90%;
         border-radius: 20px;
-        margin-left: 40px;
-        margin-top: 10px;
+        @include margin
     
     }
 

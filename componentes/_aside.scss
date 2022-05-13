@@ -1,14 +1,13 @@
 .aside {
 
     padding: 1rem;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    @include margin;
 
-    .&__inscrip {
+    &__inscrip {
     
         font-family: 'Arimo', sans-serif;
         background-color: $fluor;
-        width: 100%;
+        $width:map-get($map:tamaño , $key:ancho);
         border-radius: 20px;
         display: flex;
         flex-direction: row;
@@ -17,22 +16,22 @@
     
     }
     
-    .&__inscrip--div {
-    
-        width: 100%;
+    &__inscrip--div {
+        $width:map-get($map:tamaño , $key:ancho);
+       
     }
     
-    .&__inscrip--ol {
+    &__inscrip--ol {
         font-weight: bold;
         margin-top: 10px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        width: 100%;
+        $width:map-get($map:tamaño , $key:ancho);
     
     }
     
-    .&__inscrip--pasos:hover {
+    &__inscrip--pasos:hover {
         animation-name: initial;
         animation-duration: 9s;
         font-weight: bold;

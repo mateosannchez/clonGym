@@ -1,5 +1,29 @@
 @import "../componentes/header"
-@import "../componentes/nav"
+
 @import "../componentes/section"
+
 @import "../componentes/aside"
+
 @import "../componentes/footer"
+
+
+
+
+$colores: (
+    principal: #b7f205,
+    secundario: black,
+
+);
+
+$tamaño: (
+    ancho:100%,
+    largo:100%,
+);
+
+
+@mixin margin {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+}

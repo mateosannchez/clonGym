@@ -1,10 +1,10 @@
 .footer {
 
-    .footer__redes {
+    &__redes {
         background-color: gray;
     }
     
-    .footer__redes--title {
+    &__redes--title {
         color: $fluor;
         font-family: 'Arimo', sans-serif;
         text-align: center;
@@ -12,14 +12,14 @@
     
     }
     
-    .footer__redes--enl {
+    &__redes--enl {
         text-decoration: none;
         color: white;
         font-family: 'Arimo', sans-serif;
         font-size: 30px
     }
     
-    .footer__derechos {
+    &__derechos {
         background-color: $bl;
         background-position: center;
         background-size: cover;
@@ -28,3 +28,4 @@
         font-size: 30px
     }
 }
+
